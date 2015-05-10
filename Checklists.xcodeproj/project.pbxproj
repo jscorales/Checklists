@@ -19,6 +19,7 @@
 		7E2400B41AF71A3300950C33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2400B21AF71A3300950C33 /* Main.storyboard */; };
 		7E2400B71AF71CE300950C33 /* Checklist.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2400B61AF71CE300950C33 /* Checklist.m */; };
 		7E3C4B191AFDC18A0056B21A /* ListDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3C4B181AFDC18A0056B21A /* ListDetailViewController.m */; };
+		7E3C4B1E1AFF06B40056B21A /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3C4B1D1AFF06B40056B21A /* DataModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		7E2400B61AF71CE300950C33 /* Checklist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Checklist.m; sourceTree = "<group>"; };
 		7E3C4B171AFDC18A0056B21A /* ListDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListDetailViewController.h; sourceTree = "<group>"; };
 		7E3C4B181AFDC18A0056B21A /* ListDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListDetailViewController.m; sourceTree = "<group>"; };
+		7E3C4B1C1AFF06B40056B21A /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		7E3C4B1D1AFF06B40056B21A /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				7E2400B61AF71CE300950C33 /* Checklist.m */,
 				7E3C4B171AFDC18A0056B21A /* ListDetailViewController.h */,
 				7E3C4B181AFDC18A0056B21A /* ListDetailViewController.m */,
+				7E3C4B1C1AFF06B40056B21A /* DataModel.h */,
+				7E3C4B1D1AFF06B40056B21A /* DataModel.m */,
 			);
 			path = Checklists;
 			sourceTree = "<group>";
@@ -246,6 +251,7 @@
 			files = (
 				7E2400881AEC93F700950C33 /* ChecklistViewController.m in Sources */,
 				7E2400851AEC93F700950C33 /* AppDelegate.m in Sources */,
+				7E3C4B1E1AFF06B40056B21A /* DataModel.m in Sources */,
 				7E2400B11AF715DB00950C33 /* AllListsViewController.m in Sources */,
 				7E3C4B191AFDC18A0056B21A /* ListDetailViewController.m in Sources */,
 				7E2400821AEC93F700950C33 /* main.m in Sources */,

@@ -139,7 +139,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <segue destination="dnp-Sy-47n" kind="push" identifier="ShowChecklist" id="qez-3O-9rP"/>
+                        <segue destination="dnp-Sy-47n" kind="show" identifier="ShowChecklist" id="qez-3O-9rP"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="la5-wl-qh8" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -191,7 +191,7 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" enabled="NO" title="Done" id="SIf-VY-k8p">
                             <connections>
-                                <action selector="done" destination="nWn-KC-jh9" id="i3A-5t-gne"/>
+                                <action selector="done" destination="nWn-KC-jh9" id="4ar-ds-Uie"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -207,7 +207,7 @@
         <!--Navigation Controller-->
         <scene sceneID="wdH-MD-oWO">
             <objects>
-                <navigationController id="Tlh-K6-uEy" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="ListNavigationController" id="Tlh-K6-uEy" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="xIa-rk-SyU">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
